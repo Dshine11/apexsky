@@ -1,0 +1,5 @@
+git clone --recurse https://github.com/chettoy/apexsky
+cd apexsky
+git submodule update --init --recursive
+cd apex_dma
+./build.sh
